@@ -1,259 +1,318 @@
 * {
-    font-family: 'Raleway', sans-serif;
-    box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0 auto;
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
-    padding: 0rem;
+  margin: 0 auto;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 0rem;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .appLogoTimerUserIconContainer {
-    margin: 0 auto;
-    max-width: 1440px;
-    width: 100%;
-    height: auto;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
 }
 
 .appLogoTimerUserIcon {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .successBoxLogo {
-    max-width: 207px;
-    width: 100%;
-    height: auto;
+  max-width: 207px;
+  width: 100%;
+  height: auto;
 }
 
 .timerContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .timerTitle {
-    font-size: 26px;
-    font-weight: 600;
+  font-size: 26px;
+  font-weight: 600;
 }
 
 .timer {
-    font-size: 32px;
-    font-weight: 700;
-    color:#FE1313;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fe1313;
 }
 
-.userSubject > p{
-    font-size: 32px;
-    font-weight: 700;
-    color: #003f7d;
+.userSubject > p {
+  font-size: 32px;
+  font-weight: 700;
+  color: #003f7d;
 }
 
 .pauseTimerContainer {
-    margin: 0 auto;
-    max-width: 1440px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .pauseIcon {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 .pauseIcon > p {
-    font-size: 32px;
-    font-weight: 700;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .qTextAndOptionsContainer {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    max-width: 1440px;
-    width: 100%;
-    height: auto;
-    gap: 10rem;
-    margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  gap: 10rem;
+  margin-bottom: 2.5rem;
 }
 
 .leftSection {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    max-width: 739.23px;
-    width: 100%;
-    height: auto;
-    gap: 0rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 739.23px;
+  width: 100%;
+  height: auto;
+  gap: 0rem;
 }
 
 .qUpperBox {
-    max-width: 714px;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+  max-width: 714px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .qTextBox {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 0;
 }
 
 .qTextBox > h2 {
-    font-size: 26.83px;
+  font-size: 26.83px;
 }
 
 .qTextBox > p {
-    font-size: 26px;
-    font-weight: 400;
+  font-size: 26px;
+  font-weight: 400;
 }
 
 .mathImgBox {
-    margin: 0 auto;
-    max-width: 208px;
-    width: 100%;
-    height: auto;
+  margin: 0 auto;
+  max-width: 208px;
+  width: 100%;
+  height: auto;
 }
 
 figcaption {
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    color: #003f7d;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #003f7d;
 }
 
 .optionsContainer {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 
 .optionsBox {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .optionsWrapper {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 8px 15px 8px 15px;
-    border: 1px solid #000;
-    border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 15px 8px 15px;
+  border: 1px solid #000;
+  border-radius: 8px;
 }
 
 .aComponent {
-    display: flex;
-    align-items: center;
-    gap: 0.7rem;
-    max-width: 67.63px;
-    width: 100%;
-    height: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  max-width: 67.63px;
+  width: 100%;
+  height: auto;
 }
 
 .optionLetter {
-    font-size: 17.04px;
-    font-weight: 700;
+  font-size: 17.04px;
+  font-weight: 700;
 }
 
 .optionAns {
-    font-size: 17.04px;
-    font-weight: 400;
+  font-size: 17.04px;
+  font-weight: 400;
 }
 
 #polyTwoOption {
-    width: 50px;
-    height: 30px;
+  width: 50px;
+  height: 30px;
 }
 
 .qNavButtonContainer {
-    display: flex;
-    justify-content: end;
-    gap: 10px;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
 }
 
 .qNavButtonContainer > a {
-    font-size: 28px;
-    font-weight: 600;
-    text-align: center;
-    color: #232323;
-    border: 2px solid var(--Color-min-Orange, #FFAA60B2);
-    border-radius: 15px;
-    padding: 17px 55px 17px 55px;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  color: #232323;
+  border: 2px solid var(--Color-min-Orange, #ffaa60b2);
+  border-radius: 15px;
+  padding: 17px 55px 17px 55px;
 }
 
 .qSideNavButtonsContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .rightSection {
-    margin: 0 auto;
-    max-width: 490px;
-    width: 100%;
-    height: 487px;
-    background: #E7E5E5;
-    padding: 32px 50px 32px 50px;
-    border: none;
-    border-radius: 20px;
+  margin: 0 auto;
+  max-width: 490px;
+  width: 100%;
+  height: 487px;
+  background: #e7e5e5;
+  padding: 32px 50px 32px 50px;
+  border: none;
+  border-radius: 20px;
 }
 
 .qNavButtonsBox {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .btn1 {
-    padding: 10.16px 20.32px 10.16px 20.32px;
-    border: 1px solid #0C8E09;
-    border-radius: 10.16px;
-    background: #FFFFFF;
-    cursor: pointer;
+  padding: 10.16px 20.32px 10.16px 20.32px;
+  border: 1px solid #0c8e09;
+  border-radius: 10.16px;
+  background: #ffffff;
+  cursor: pointer;
 }
 
 .btn1 > a {
-    color: #232323;
-    font-size: 20.32px;
-    font-weight: 600;
+  color: #232323;
+  font-size: 20.32px;
+  font-weight: 600;
 }
 
 .submissionButton {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .submissionButton > a {
-    padding: 20px 89px 20px 89px;
-    border: none;
-    border-radius: 15px;
-    background: #FD7702;
-    color: #FCFCFC;
-    font-size: 32px;
-    font-weight: 600;
-    text-align: center;
+  padding: 20px 89px 20px 89px;
+  border: none;
+  border-radius: 15px;
+  background: #fd7702;
+  color: #fcfcfc;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Modal */
+
+#myModal {
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.modalContainer {
+  max-width: 350px;
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.close {
+  position: relative;
+  top: 1rem;
+  left: 9rem;
+}
+
+#myModal:not(:target) {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#myPolyImg {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.modalContainer {
+  animation-name: zoom;
+  animation-duration: 1.5s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
