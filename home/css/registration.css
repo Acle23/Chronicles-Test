@@ -1,0 +1,153 @@
+/* Work on making images and buttons links */
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #fff;
+    color: #232323;
+    width: 100%;
+    height: 100%;
+    padding: 0rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.successBoxImgWrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.successBoxLogo {
+    width: 207px;
+    height: auto;
+}
+
+.registrationFormContainer {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+}
+
+.registrationFormWrapper {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+}
+
+.formDescriptionBox {
+    max-width: 476px;
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+}
+
+.stepBox {
+    max-width: 155px;
+    width: 100%;
+    height: auto;
+    border: 2px solid #003f7d;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.stepBox > p {
+    font-size: 20px;
+    line-height: 29.29px;
+}
+
+.registerTextBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.registerTextBox > h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40.8px;
+    color: #003f7d;
+}
+
+.registerTextBox > p {
+    font-size: 20px;
+    line-height: 29.29px;
+}
+
+fieldset {
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    height: 420px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.input {
+    display: inline-block;
+    max-width: 800px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 23px 44px 23px 22px;
+    margin-top: 1.5rem;
+    font-family: inherit;
+    font-weight: 400;
+}
+
+.input:invalid {
+    color: hsl(0, 100%, 60%);
+}
+
+.policyContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.check {
+    width: 50px;
+    height: 30px;
+}
+
+.policyContainer > p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.policyContainer a {
+    font-size: 20px;
+    text-decoration: underline;
+    color: blue;
+}
+
+.registerButtonContainer {
+    width: 100%;
+    padding: 20px 350px 20px 350px;
+    background: #003F7D;
+    border-radius: 15px;
+    margin: 3.4rem 0rem 7rem 0rem;
+}
+
+.regBtn {
+    font-size: 28px;
+    font-weight: 700;
+    color: #FCFCFC;
+}

@@ -1,0 +1,116 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #fff;
+    color: #232323;
+    width: 100%;
+    height: 100%;
+}
+
+.registration2Section {
+    max-width: 1440px;
+    width: 100%;
+    height: 10vh;
+    padding: 2rem;
+}
+
+.successBoxImgLogo {
+    max-width: 207px;
+    width: 100%;
+    height: auto;
+}
+
+.successBoxLogo {
+    width: 207px;
+    height: auto;
+}
+
+.registration2FormWrapper {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    height: 100vh;
+}
+
+.formDescriptionBox {
+    max-width: 476px;
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+}
+
+.stepBox {
+    max-width: 155px;
+    width: 100%;
+    height: auto;
+    border: 2px solid #003f7d;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.stepBox > p {
+    font-size: 20px;
+    line-height: 29.29px;
+}
+
+.registerTextBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.registerTextBox > h1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40.8px;
+    color: #003f7d;
+}
+
+.registerTextBox > p {
+    font-size: 20px;
+    line-height: 29.29px;
+}
+
+.formContainer {
+    margin: 0 auto;
+    max-width: 1060px;
+    width: 100%;
+    height: auto;
+    background: #F4F4F4;
+    padding: 57px 71.5px 77px 70.5px;
+    border: none;
+    border-radius: 20px;
+}
+
+.formBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.formOptionsContainer {
+    background: #fff;
+    padding: 8px 30px 8px 30px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subjectName {
+    font-size: 28px;
+    font-weight: 500;
+    color: #555555;
+}
+
+input.sizeAdj {
+    width: 60px;
+    height: 30px;
+}

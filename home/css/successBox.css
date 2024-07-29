@@ -1,0 +1,89 @@
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  padding: 0rem;
+}
+
+.landingSection {
+  background-image: url("/home/Images/Group\ 33681.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: 100vh;
+}
+
+.landingWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.successBoxCenter {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  position: absolute;
+  top: 20rem;
+  max-width: 331.39px;
+  width: 100%;
+  height: auto;
+}
+
+.successBoxLogo {
+  max-width: 331.49px;
+  width: 100%;
+  height: auto;
+}
+
+.beceLogo {
+  max-width: 242.65px;
+  width: 100%;
+  height: 100%;
+}
+
+.landingFootWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  bottom: -12rem;
+  max-width: 169px;
+  width: 100%;
+  height: auto;
+}
+
+.poweredLogo {
+  max-width: 169px;
+  width: 100%;
+  height: auto;
+}
+
+.companyLogo {
+  max-width: 162.26px;
+  width: 100%;
+  height: 100%;
+}
+
+.eclipseFoot {
+  position: absolute;
+  bottom: -20rem;
+  right: -0rem;
+}
+
+/* Mobile View */
