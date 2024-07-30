@@ -1,0 +1,84 @@
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  padding: 0rem;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-image: url("/home/Images/Rectangle\ 2002.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 207px;
+  height: auto;
+}
+
+.userIconLogoAndNameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.userIconLogoAndNameWrapper > p {
+  font-size: 32px;
+  font-weight: 700;
+  color: #232323;
+}
+
+.navAndSubSelectorContainer {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+}
+
+.navBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backIconContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 19px;
+}
+
+.backIconContainer > p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #232323;
+}
