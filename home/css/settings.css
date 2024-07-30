@@ -1,0 +1,233 @@
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  padding: 0rem;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-image: url("/home/Images/Rectangle\ 2002.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 207px;
+  height: auto;
+}
+
+.userIconLogoAndNameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+.userIconLogoAndNameWrapper > p {
+  font-size: 32px;
+  font-weight: 700;
+  color: #232323;
+}
+
+.navAndSubSelectorContainer {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+}
+
+.navBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.backIconContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 19px;
+}
+
+.backIconContainer > p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #232323;
+}
+
+.profileHead {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 3rem;
+}
+
+.profileHead > p {
+  margin: 0 auto;
+  max-width: 175px;
+  width: 100%;
+  height: auto;
+  padding: 10px 9px 10px 9px;
+  border-bottom: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0px 7px 4px 0px #fd77024d;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.bioContainer {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+}
+
+.bioBox {
+  margin: 0 auto;
+  max-width: 758px;
+  width: 100%;
+  height: auto;
+  padding: 50px 65px 55px 65px;
+  border: none;
+  border-radius: 30px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.bioDataContainer {
+  margin: 0 auto;
+  max-width: 628px;
+  width: 100%;
+  height: auto;
+  gap: 12;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bioLogo {
+  width: 175px;
+  height: 175px;
+}
+
+.nameBox {
+  margin: 0 auto;
+  max-width: 214px;
+  width: 100%;
+  height: auto;
+}
+
+.nameBox > p {
+  padding: 10px 9px 10px 9px;
+  border-bottom: 2px solid #000;
+  box-shadow: 0px 7px 4px 0px #fd77024d;
+  border-radius: 10px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #232323;
+  text-align: center;
+}
+
+.mailBox {
+  width: 100%;
+  height: 100%;
+}
+
+.mailBox > p {
+  padding: 0px 0px 12px 0px;
+  border-bottom: 2px solid #000;
+  border: none;
+  font-size: 28px;
+  font-weight: 600;
+  color: #232323;
+  text-align: center;
+  box-shadow: 0px 7px 4px 0px #fd77024d;
+}
+
+.numberBox {
+  width: 100%;
+  height: 100%;
+}
+
+.numberBox > p {
+  padding: 0px 0px 12px 0px;
+  border-bottom: 2px solid #000;
+  border: none;
+  font-size: 28px;
+  font-weight: 600;
+  color: #232323;
+  text-align: center;
+  box-shadow: 0px 7px 4px 0px #fd77024d;
+}
+
+footer {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+}
+
+.footContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 29px;
+  margin-top: 9rem;
+}
+
+.copyrightContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.copyrightLogo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.copyrightText {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.rights {
+  font-size: 24px;
+  font-weight: 400;
+}
