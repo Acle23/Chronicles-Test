@@ -21,7 +21,7 @@ a {
   background-image: url("/home/Images/Rectangle\ 2002.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .header {
@@ -225,3 +225,56 @@ textarea {
   gap: 31px;
 }
 
+.cellContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+
+.cellOne,
+.cellTwo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+footer {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+}
+
+.footContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 29px;
+  margin-top: 9rem;
+}
+
+.copyrightContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.copyrightLogo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.copyrightText {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.rights {
+  font-size: 24px;
+  font-weight: 400;
+}
