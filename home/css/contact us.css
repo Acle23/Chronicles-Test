@@ -82,3 +82,128 @@ a {
   font-weight: 600;
   color: #232323;
 }
+
+.contactContainer {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+}
+
+.contactBox {
+  margin: 0 auto;
+  max-width: 850px;
+  width: 100%;
+  height: auto;
+  padding: 61px 65px 40px 65px;
+  background: #fff;
+  border: none;
+  border-radius: 30px;
+  color: #232323;
+}
+
+.contactBox > p {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.inboxImgContainer {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+
+/* fieldset {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 420px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: #fff;
+} */
+
+.input {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 23px 44px 23px 22px;
+  margin-top: 1.5rem;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  border-radius: 10px;
+  resize: none;
+}
+
+.submitButtonContainer {
+  width: 100%;
+  padding: 24px 142px 24px 142px;
+  background: #003f7d;
+  border-radius: 15px;
+}
+
+.subBtn {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fcfcfc;
+}
+
+.adContainer {
+  margin: 0 auto;
+  max-width: 441px;
+  width: 100%;
+  height: auto;
+}
+
+.adBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  margin-top: 2.05rem;
+}
+
+.checkWebsites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+}
+
+.checkWebsites > p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.webLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.webLink > p {
+  font-size: 24px;
+  font-weight: 600;
+  color: #FD7702;
+  text-decoration: underline;
+}
